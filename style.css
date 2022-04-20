@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+.guess-div {
+    max-width: fit-content;
+    min-height: fit-content;
+    padding: 1rem;
+    background-color: gray;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.guess-div p {
+    font-size: 20px;
+}
+
+#num-input {
+    padding: 0.5rem;
+    width: 125px;
+}
+
+#guess-btn {
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#again {
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
