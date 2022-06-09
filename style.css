@@ -10,7 +10,7 @@
     position: fixed;
     display: grid;
     place-items: center;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-color: darkslategrey;
 }
 
 .guess-div {
