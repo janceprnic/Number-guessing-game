@@ -16,7 +16,9 @@
 <body>
 
     <div class="main-container">
+
         <div class="guess-div">
+
             <h1>Guess the number</h1>
 
             <br />
@@ -25,12 +27,14 @@
 
             <br />
 
-            <input inputmode="numeric" id="num-input" placeholder="Enter a number" autofocus onkeyup="isEmpty()">
+            <input id="num-input" type="number" min="1" max="15" placeholder="Enter a number" style="width: 128px;">
 
-            <button id="guess-btn" disabled>Guess</button>
+            <button id="guess-btn">Guess</button>
 
             <button id="again">Play again</button>
+
         </div>
+
     </div>
 
     <script src="app.js"> </script>
