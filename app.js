@@ -12,7 +12,7 @@ let guesses = 0;
 btn.addEventListener('click' ,function () {
     let input = document.getElementById('num-input').value;
 
-    if(input == 0 ) {
+    if(input == 0 || input < 1 || input > 15 ) {
         alert("You must enter a number between 1 and 15!");
     }
 
