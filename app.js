@@ -6,6 +6,7 @@ let input = document.getElementById('num-input');
 
 let again = document.getElementById('again');
 again.disabled = true;
+again.style.cursor = "not-allowed";
 
 let guesses = 0;
 
@@ -28,6 +29,7 @@ btn.addEventListener('click' ,function () {
         alert(`You won! You guessed the number in ${guesses} tries.`);
         btn.remove();
         again.disabled = false;
+        again.style.cursor = "pointer";
     }
 
     guesses++;
