@@ -8,7 +8,7 @@ let input = document.querySelector('.num-input');
 
 let play_again = document.querySelector('.play-again');
 
-let guesses = 0;
+let guesses = 1;
 
 //The game functionality which activates after you click the "guess button"
 guess_btn.addEventListener('click' ,function () {
